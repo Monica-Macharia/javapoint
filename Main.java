@@ -25,5 +25,15 @@ public class Main {
         System.out.println(roundedint);
         int maximum = Math.max(num, feet);
         System.out.println(maximum);
+
+
+        int age = 190;
+        if(age < 18){
+            System.out.println("not elligible");
+        }else if(age == 18){
+            System.out.println("lucky one");
+        }else{
+            System.out.println("beyond qualified");
+        }
     }
 }
