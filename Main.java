@@ -7,7 +7,12 @@ public class Main {
         float rounded = 5.7896856f;
         double truncated = 7.88778686886865556577777777777d;
 
+        float floatnum = num;
+        int roundedint = (int) rounded;
+
 
         System.out.println(num + days + rainy +  letter + rounded + truncated);
+        System.out.println(floatnum);
+        System.out.println(roundedint);
     }
 }
