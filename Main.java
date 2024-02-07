@@ -20,12 +20,10 @@ public class Main {
         int ind = name.indexOf("i");
         String allNames = name.concat(" ").concat(nameCapitalized);
         System.out.println(allNames);
-        
-
-
-
         System.out.println(num + days + rainy +  letter + rounded + truncated);
         System.out.println(floatnum);
         System.out.println(roundedint);
+        int maximum = Math.max(num, feet);
+        System.out.println(maximum);
     }
 }
