@@ -9,6 +9,19 @@ public class Main {
 
         float floatnum = num;
         int roundedint = (int) rounded;
+        int feet = 7;
+        feet += 10;
+        System.out.println(feet);
+        String name = "Kiruki";
+        String nameCapitalized = name.toUpperCase();
+        System.out.println(nameCapitalized);
+        String lowerName = nameCapitalized.toLowerCase();
+        System.out.println(lowerName);
+        int ind = name.indexOf("i");
+        String allNames = name.concat(" ").concat(nameCapitalized);
+        System.out.println(allNames);
+        
+
 
 
         System.out.println(num + days + rainy +  letter + rounded + truncated);
