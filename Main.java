@@ -30,7 +30,12 @@ public class Main {
         String evenings = "Madrid";
         System.out.println(evenings);
 
-        
+        int bundles = 20;
+        if(bundles == 200){
+            System.out.println("Telkom");
+        }else if(bundles > 200){
+            System.out.println("airtel");
+        }else{System.out.println("Safaricom:(");}
 
 
         int age = 190;
