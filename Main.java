@@ -27,6 +27,12 @@ public class Main {
         System.out.println(maximum);
 
 
+        String evenings = "Madrid";
+        System.out.println(evenings);
+
+        
+
+
         int age = 190;
         if(age < 18){
             System.out.println("not elligible");
