@@ -1,3 +1,6 @@
+import java.sql.Time;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args){
         int num = 5;
@@ -46,5 +49,15 @@ public class Main {
         }else{
             System.out.println("beyond qualified");
         }
+
+        //reference types
+        Date today = new Date();
+        System.out.println(today);
+        today.getDay();
+        long timer = today.getTime();
+        System.out.println(timer);;
+
+
+
     }
 }
