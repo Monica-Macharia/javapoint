@@ -1,3 +1,4 @@
+import java.sql.Array;
 import java.sql.Time;
 import java.util.Date;
 
@@ -56,6 +57,11 @@ public class Main {
         today.getDay();
         long timer = today.getTime();
         System.out.println(timer);;
+
+
+        //Arrays
+        int[] numbers = {3,4,5,6,7,6,7,5};
+        System.out.println(Array.toString(numbers));
 
 
 
